@@ -1,4 +1,4 @@
-# Project_2_Team_5 - World Happiness and Homicides
+#World Happiness and Homicides
 
 Mankwe Ndosi 
 Evgeniya (Jenny) Kardashov
