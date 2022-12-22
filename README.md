@@ -1,4 +1,4 @@
-### World Happiness and Homicides
+# World Happiness and Homicides
 
 Mankwe Ndosi 
 Evgeniya (Jenny) Kardashov
