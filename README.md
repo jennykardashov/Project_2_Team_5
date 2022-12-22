@@ -19,5 +19,12 @@ Jenny Extracted, cleaned, and transformed the World Happiness and UN World Inten
 
 ## The Process
 
+Step 1:
+Downloaded Yearly World Happiness Reports and converted them to dataframes. Removed columns, appended them together and formatted numbers.
+Downloaded UN Homicide Victim data and converted them to dataframes.  Removed columns, flipped table format.
+Downloaded Yearly Happy Planet Index Data 
+
+Step
 We spent a lot of time looking for data and deciding on a project.
-We worked together to decide on the data and what needed to remain for us to work with
+We worked together to decide on the data and what columns needed to remain.
+
