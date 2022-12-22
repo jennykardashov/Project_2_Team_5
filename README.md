@@ -56,21 +56,18 @@ Downloaded Yearly Happy Planet Index Data and converted to a dataframe. Dropped 
     - Found the Countries with data for all five years and put them into a Dataframe
     - Saved to hpi_final_2015_2019.csv file
 
-##### Dropped Rows with Null Values
-
-##### Grouped Dataframe by Year 
-
-##### Found the Countries with data for all five years and put them into a Dataframe
-
-Saved to hpi_final_2015_2019.csv file
-
-=======
 ## STEP 3 LOAD
+    - We made an ERD map and PostgresSQL schema from the three Output files. 
+![ERD](https://github.com/jennykardashov/Project_2_Team_5/blob/main/ERD.png)
 
-We made an ERD map and PostgresSQL schema from the three Output files.
+    - We made tables from the PostgresSQL schema.
 
-We made tables from the PostgresSQL schema.
-
-We were adding the engine and sqlalchemy connections to our jupyter notebook files, to load the databases into PostgresSQL , but there was an internl sqlAlchemy error that would not allow the connection , or even the importing of the dependencies, to occur. 
+    - We were adding the engine and sqlalchemy connections to our jupyter notebook files, to load the databases into PostgresSQL , but there was an internl sqlAlchemy error that would not allow the connection , or even the importing of the dependencies, to occur. 
 
 So we made screenshots of the error, and our Database tables. ;(
+![error_1](https://github.com/jennykardashov/Project_2_Team_5/blob/main/Outputs/error1.png)
+
+![error_2](https://github.com/jennykardashov/Project_2_Team_5/blob/main/Outputs/error2.png)
+
+
+
