@@ -24,69 +24,38 @@ Downloaded Yearly World Happiness Reports and converted them to dataframes. Drop
 Downloaded UN Homicide Victim data and converted them to dataframes.  Dropped and renamed columns, flipped table format. Saved to a csv file in the Outputs folder.
 Downloaded Yearly Happy Planet Index Data and converted to a dataframe. Dropped and renamed columns, separated into yearly data, and pulled the countries that had full data for all five years. Saved to a csv file in the Outputs folder.
 
-### Step 2. TRANSFORM
-#### World Happiness Reports 2015 - 2019:
+## Step 2. TRANSFORM
+1.  World Happiness Reports 2015 - 2019:
   
-##### Dropped Columns:
-  'Region', 'Standard Error', 'Generosity','Dystopia Residual', 'Happiness Rank', 'Family', 'Health (Life Expectancy)', 'Freedom', 'Trust (Government Corruption)'
-  'Whisker.high', 'Whisker.low', 'Overall rank', 'Social support', 'Healthy life expectancy', 'Freedom to make life choices', 'Perceptions of corruption'
-  
-##### Renamed Columns
+    - Dropped Columns: 'Region', 'Standard Error', 'Generosity','Dystopia Residual', 'Happiness Rank', 'Family', 'Health (Life Expectancy)', 'Freedom',      'Trust (Government Corruption)', 'Whisker.high', 'Whisker.low', 'Overall rank', 'Social support', 'Healthy life expectancy', 'Freedom to make life choices', 'Perceptions of corruption'
+    - Renamed Columns
   Economy (GDP per Capita)": "gdp_per_capita", 
   "Country": "country",
   "Happiness Score": "happiness_score"
  "Country or region": "country", 
  "Score": "happiness_score"
- 
-##### Dropped Rows with Null Values
-
-##### Added 
-  Year Column
+    - Dropped Rows with Null Values
+    - Added Year Column
+    - Appended Year dataframes together  
+    - Saved to wh_final.csv
   
-##### Appended Year dataframes together  
-
-Saved to wh_final.csv
+2. UN World Intentional Homicice Data:
+    - Dropped Columns: 'Subregion', 'Region', '2020'
+    - Dropped Rows with Null Values
+    - Flipped columns to make new rows "year", "homicide_victims_by_counts_per_100,000_population"
+    - Sorted by Country
+    - Saved to homicide_final.csv
   
-#### UN World Intentional Homicice Data:
- 
-##### Dropped Columns
-  'Subregion', 'Region', '2020'
-  
-##### Dropped Rows with Null Values
-  
-##### Flipped columns to make new rows
-  "year",
-  "homicide_victims_by_counts_per_100,000_population"
- 
- ##### Sorted by Country
- 
- Saved to homicide_final.csv
-  
-#### Happy Planet Index Data:
- 
-##### Dropped Columns: 
-  "HPI rank", "ISO", "Continent", "Ladder of life (Wellbeing) (0-10)", "Ecological Footprint (g ha)", "Biocapacity for year \n(g ha)", "GDP per capita ($)"
-
-##### Renamed Columns
-"Country": "country", 
-"Unnamed: 3" : "year_ctry_code", 
-"Population (thousands)": "population_thousands",
-"Life Expectancy (years)": "life_expectancy_years", 
-"HPI" : "happy_planet_index"
-
-##### Split Column and Add segmented column
+3. Happy Planet Index Data:
+     - Dropped Columns: "HPI rank", "ISO", "Continent", "Ladder of life (Wellbeing) (0-10)", "Ecological Footprint (g ha)", "Biocapacity for year \n(g ha)", "GDP per capita ($)"
+    - Renamed Columns: "Country": "country", "Unnamed: 3" : "year_ctry_code", "Population (thousands)": "population_thousands", "Life Expectancy (years)":"life_expectancy_years", "HPI" : "happy_planet_index"
+    - Split Column and Add segmented column
 "year_ctry_code" into a "year" column and added it to the DataFrame
+    - Dropped Rows with Null Values
+    - Grouped Dataframe by Year 
+    - Found the Countries with data for all five years and put them into a Dataframe
+    - Saved to hpi_final_2015_2019.csv file
 
-##### Dropped Rows with Null Values
-
-We made an ERD map and PostgresSQL schema from the three Output files.
-
-##### Grouped Dataframe by Year 
-
-##### Found the Countries with data for all five years and put them into a Dataframe
-
-Saved to hpi_final_2015_2019.csv file
-
-### STEP 3 LOAD
+## STEP 3 LOAD
 
 We made an ERD map and PostgresSQL schema from the three Output files.
