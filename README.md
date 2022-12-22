@@ -3,7 +3,7 @@
 ## Proposal
 
 ## Roles
-Mankwe Extracted cleaned, and transformed the Happy Planet Data
+Mankwe Extracted cleaned, and transformed the Happy Planet Data /
 Jenny Extracted, cleaned, and transformed the World Happiness and UN World Intentional Homicide Data
 
 ## Sources
