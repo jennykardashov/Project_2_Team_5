@@ -79,8 +79,6 @@ Saved to wh_final.csv
 
 ##### Dropped Rows with Null Values
 
-We made an ERD map and PostgresSQL schema from the three Output files.
-
 ##### Grouped Dataframe by Year 
 
 ##### Found the Countries with data for all five years and put them into a Dataframe
@@ -90,3 +88,9 @@ Saved to hpi_final_2015_2019.csv file
 ### STEP 3 LOAD
 
 We made an ERD map and PostgresSQL schema from the three Output files.
+
+We made tables from the PostgresSQL schema.
+
+We were adding the engine and sqlalchemy connections to our jupyter notebook files, to load the databases into PostgresSQL , but there was an internl sqlAlchemy error that would not allow the connection , or even the importing of the dependencies, to occur. 
+
+So we made screenshots of the error, and our Database tables. ;(
