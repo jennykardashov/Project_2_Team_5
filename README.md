@@ -35,7 +35,7 @@ Downloaded Yearly Happy Planet Index Data and converted to a dataframe. Dropped 
   Economy (GDP per Capita)": "gdp_per_capita", 
   "Country": "country",
   "Happiness Score": "happiness_score"
-  "Country or region": "country", 
+ "Country or region": "country", 
  "Score": "happiness_score"
  
 ##### Dropped Rows with Null Values
@@ -55,7 +55,7 @@ Saved to wh_final.csv
 ##### Dropped Rows with Null Values
   
 ##### Flipped columns to make new rows
-  "year"
+  "year",
   "homicide_victims_by_counts_per_100,000_population"
  
  ##### Sorted by Country
@@ -75,7 +75,7 @@ Saved to wh_final.csv
 "HPI" : "happy_planet_index"
 
 ##### Split Column and Add segmented column
-"year_ctry_code" into a "year" column and added it
+"year_ctry_code" into a "year" column and added it to the DataFrame
 
 ##### Dropped Rows with Null Values
 
