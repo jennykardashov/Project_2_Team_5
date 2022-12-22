@@ -66,7 +66,7 @@ Downloaded Yearly Happy Planet Index Data and converted to a dataframe. Dropped 
 
 3. We were adding the engine and sqlalchemy connections to our jupyter notebook files, to load the databases into PostgresSQL , but there was an internl sqlAlchemy error that would not allow the connection , or even the importing of the dependencies, to occur. 
 
-So we made screenshots of the error, and our Database tables. ;(
+4. So we made screenshots of the error, and our Database tables. ;(
 ![error_1](https://github.com/jennykardashov/Project_2_Team_5/blob/main/Outputs/error1.png)
 
 ![error_2](https://github.com/jennykardashov/Project_2_Team_5/blob/main/Outputs/error2.png)
