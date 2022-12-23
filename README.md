@@ -10,7 +10,7 @@ To serve Eco-tourism or Climate Change and Environmental Non-profits and NGO's, 
 
 ## Roles
 Mankwe extracted, cleaned, and transformed the Happy Planet Data, wrote the README, made the final ERD, and helped with the SQL work
-Jenny Eextracted, cleaned, and transformed the World Happiness and UN World Intentional Homicide Data, made the SQL Tables and Database, Loaded the Data, fixed Depedency Errors and formatted the README.
+Jenny extracted, cleaned, and transformed the World Happiness and UN World Intentional Homicide Data, made the SQL Tables and Database, Loaded the Data, fixed Depedency Errors and formatted the README.
 
 
 ## Sources
