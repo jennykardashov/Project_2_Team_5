@@ -67,7 +67,7 @@ https://github.com/jennykardashov/Project_2_Team_5/blob/main/tables.sql
   
 3. We made and ERD map in QuickDatabaseDesigns
 
-https://github.com/jennykardashov/Project_2_Team_5/blob/main/globalhappiness_homicides_ERD.png
+![ERD](https://github.com/jennykardashov/Project_2_Team_5/blob/main/globalhappiness_homicides_ERD.png)
 
 
 
