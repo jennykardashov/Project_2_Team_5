@@ -1,6 +1,6 @@
 # World Happiness and Homicides
 
-Mankwe Ndosi 
+Mankwe Ndosi
 Evgeniya (Jenny) Kardashov
 
 ## Proposal
