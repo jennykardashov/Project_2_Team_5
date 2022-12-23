@@ -7,7 +7,7 @@ CREATE TABLE "homicide_final"(
 	)
 );
 
-CREATE TABLE "pi_final_2015_19" (
+CREATE TABLE "hpi_final_2015_19" (
 	"country" VARCHAR NOT NULL,
 	"population_ thousands" INT NOT NULL,
 	"life expectancy_years" INT NOT NULL,
