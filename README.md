@@ -9,8 +9,8 @@ Evgeniya (Jenny) Kardashov
 To serve Eco-tourism or Climate Change and Environmental Non-profits and NGO's, we looked at the World Happiness Index - that measures individual human happiness and the Happy Planet Index - that combines human happiness with ecological consumption data. We chose to combine this data with UN Data on Intentional Homicides - to be able to identify places that were happy for humans, happy for the planet, and peaceful.
 
 ## Roles
-Mankwe Extracted cleaned, and transformed the Happy Planet Data, wrote the README, made the final ERD, and helped with the SQL work
-Jenny Extracted, cleaned, and transformed the World Happiness and UN World Intentional Homicide Data, made the SQL Tables and Database, Loaded the Data, fixed Depedency Errors and formatted the README.
+Mankwe extracted, cleaned, and transformed the Happy Planet Data, wrote the README, made the final ERD, and helped with the SQL work
+Jenny Eextracted, cleaned, and transformed the World Happiness and UN World Intentional Homicide Data, made the SQL Tables and Database, Loaded the Data, fixed Depedency Errors and formatted the README.
 
 
 ## Sources
@@ -40,7 +40,7 @@ Downloaded Yearly Happy Planet Index Data and converted to a dataframe. Dropped 
     - Appended Year dataframes together  
     - Saved to wh_final.csv
   
-2. UN World Intentional Homicice Data:
+2. UN World Intentional Homicide Data:
     - Dropped Columns: 'Subregion', 'Region', '2020'
     - Dropped Rows with Null Values
     - Flipped columns to make new rows "year", "homicide_victims_by_counts_per_100,000_population"
