@@ -60,6 +60,7 @@ Downloaded Yearly Happy Planet Index Data and converted to a dataframe. Dropped 
 ## STEP 3 LOAD
 
 1. We made and ERD map in QuickDatabaseDesigns
+
 ![ERD](https://github.com/jennykardashov/Project_2_Team_5/blob/main/globalhappiness_homicides_ERD.png)
 
 2. We made tables in PostgresSQL.
