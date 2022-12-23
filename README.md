@@ -38,14 +38,12 @@ Downloaded Yearly Happy Planet Index Data and converted to a dataframe. Dropped 
     - Dropped Rows with Null Values
     - Added Year Column
     - Appended Year dataframes together  
-    - Saved to wh_final.csv
   
 2. UN World Intentional Homicide Data:
     - Dropped Columns: 'Subregion', 'Region', '2020'
     - Dropped Rows with Null Values
     - Flipped columns to make new rows "year", "homicide_victims_by_counts_per_100,000_population"
     - Sorted by Country
-    - Saved to homicide_final.csv
   
 3. Happy Planet Index Data:
      - Dropped Columns: "HPI rank", "ISO", "Continent", "Ladder of life (Wellbeing) (0-10)", "Ecological Footprint (g ha)", "Biocapacity for year \n(g ha)", "GDP per capita ($)"
@@ -55,7 +53,6 @@ Downloaded Yearly Happy Planet Index Data and converted to a dataframe. Dropped 
     - Dropped Rows with Null Values
     - Grouped Dataframe by Year 
     - Found the Countries with data for all five years and put them into a Dataframe
-    - Saved to hpi_final_2015_2019.csv file
 
 ## STEP 3 LOAD
 
