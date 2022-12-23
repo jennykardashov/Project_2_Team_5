@@ -9,8 +9,8 @@ Evgeniya (Jenny) Kardashov
 To serve Eco-tourism or Climate Change and Environmental Non-profits and NGO's, we looked at the World Happiness Index - that measures individual human happiness and the Happy Planet Index - that combines human happiness with ecological consumption data. We chose to combine this data with UN Data on Intentional Homicides - to be able to identify places that were happy for humans, happy for the planet, and peaceful.
 
 ## Roles
-Mankwe Extracted cleaned, and transformed the Happy Planet Data, wrote the README, and helped with the SQL work
-Jenny Extracted, cleaned, and transformed the World Happiness and UN World Intentional Homicide Data, made the ERD, and 
+Mankwe Extracted cleaned, and transformed the Happy Planet Data, wrote the README, made the final ERD, and helped with the SQL work
+Jenny Extracted, cleaned, and transformed the World Happiness and UN World Intentional Homicide Data, made the SQL Tables and Database, Loaded the Data, fixed Depedency Errors and formatted the README.
 
 
 ## Sources
@@ -59,18 +59,17 @@ Downloaded Yearly Happy Planet Index Data and converted to a dataframe. Dropped 
 
 ## STEP 3 LOAD
 
-1. We made an ERD map and PostgresSQL schema from the three Output files. 
-    
-![ERD](https://github.com/jennykardashov/Project_2_Team_5/blob/main/ERD.png)
+1. We made tables in PostgresSQL.
 
-2. We made tables from the PostgresSQL schema.
+https://github.com/jennykardashov/Project_2_Team_5/blob/main/tables.sql
 
-3. We were adding the engine and sqlalchemy connections to our jupyter notebook files, to load the databases into PostgresSQL , but there was an internl sqlAlchemy error that would not allow the connection , or even the importing of the dependencies, to occur. 
+2. We fixed Dependency Errors and Loaded the data into the PostgresSQL tables with pandas in the corresponding Jupyter Notebooks.
+  
+3. We made and ERD map in QuickDatabaseDesigns
 
-4. So we made screenshots of the error, and our Database tables. ;(
-![error_1](https://github.com/jennykardashov/Project_2_Team_5/blob/main/Outputs/error1.png)
+https://github.com/jennykardashov/Project_2_Team_5/blob/main/globalhappiness_homicides_ERD.png
 
-![error_2](https://github.com/jennykardashov/Project_2_Team_5/blob/main/Outputs/error2.png)
+
 
 
 
